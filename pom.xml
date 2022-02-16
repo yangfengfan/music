@@ -20,7 +20,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-
         </dependency>
 
         <dependency>
@@ -43,7 +42,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
-            <version>1.0.28</version>
+            <version>1.1.10</version>
         </dependency>
 
         <dependency>
@@ -77,8 +76,7 @@
 <!--                热部署需要添加这两个true-->
                 <configuration>
                     <executable>true</executable>
-                    <fork>true
-                    </fork>
+                    <fork>true</fork>
                 </configuration>
             </plugin>
         </plugins>
