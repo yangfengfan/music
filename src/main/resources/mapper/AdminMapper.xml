@@ -9,4 +9,7 @@
         <result column="password" jdbcType="VARBINARY" property="password"/>
     </resultMap>
 
+    <select id="verifyPassword" resultType="integer">
+        select count(*) from admin where name=#{0} and password=#{1}
+    </select>
 </mapper>
